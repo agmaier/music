@@ -1,0 +1,29 @@
+
+	
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "lilypond",
+            "type": "shell",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "command": "\"C:\\Program Files (x86)\\LilyPond\\usr\\bin\\lilypond.exe\" ${fileBasename}",
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
+
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe"
+}
