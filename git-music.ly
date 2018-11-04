@@ -12,7 +12,7 @@ global = {
 
 rightOne = \relative c'' {
   \global
-  a c e d
+  a c e d c f d a
   
 }
 
