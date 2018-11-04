@@ -18,13 +18,13 @@ rightOne = \relative c'' {
 
 rightTwo = \relative c'' {
   \global
-  b g e d
+  b g e d f d a g
   
 }
 
 leftOne = \relative c' {
   \global
-  a d b f
+  a d b f e1
   
 }
 
