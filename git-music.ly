@@ -12,19 +12,19 @@ global = {
 
 rightOne = \relative c'' {
   \global
-  a c e d c f d a
-  
+  a c e d c f d g g g e
+
 }
 
 rightTwo = \relative c'' {
   \global
-  b g e d f d a g
+  b g e d f d a g b d f g e f
   
 }
 
 leftOne = \relative c' {
   \global
-  a d b f e1
+  a d b f e1 g g a a a a a
   
 }
 
